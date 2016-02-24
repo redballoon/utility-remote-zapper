@@ -1,0 +1,23 @@
+{
+  "name": "Utility-Remote-Zapper",
+  "version": "0.0.0",
+  "description": "Gulp task to synchronize build files with a remote server.",
+  "main": "sync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redballoon/utility-remote-zapper.git"
+  },
+  "author": "Fredi Quirino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redballoon/utility-remote-zapper/issues"
+  },
+  "homepage": "https://github.com/redballoon/utility-remote-zapper",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "simple-git": "^1.26.0"
+  }
+}
