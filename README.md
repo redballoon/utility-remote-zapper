@@ -12,17 +12,22 @@ simple-git
 Within the file you can set an options object that will be used during the task.
 
 build: './build/'
+
 src: './src/'
+
 ignore: true
+
 remove_ignore: false
+
 server: 'user@myserver.com'
+
 server_path: '/my/remote/path'
 
 
-*ignore*
+####ignore
 set to false if you don't want to check if files are being ignored by git.
 
-*remove_ignore*
+####remove_ignore
 set to true to remove the ignored files before syncing but only if its files, it will still bail out if it finds ignored directories.
 
 
